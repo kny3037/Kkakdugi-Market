@@ -606,7 +606,7 @@ insert into gallery (idx, fileName)
 	values((select idx from writing order by idx desc limit 1), '104_침대.jpg');
 -- 댓글 삽입
 insert into comment (writingIdx, userId,content)
-	values (104, 'iU123', '5만원에 사고 싶어요!!!');
+	values (104, 'iU123', '5만원에 사고 싶어요!');
 insert into comment (writingIdx, userId,content,pro)
 	values (104, 'm9768', '중고 가구점에도 최소 10만원은 받을 수 있는 매물입니다.', 1);
 insert into comment (writingIdx, userId,content)
